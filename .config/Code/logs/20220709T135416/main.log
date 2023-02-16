@@ -1,0 +1,10 @@
+[2022-07-09 13:54:17.455] [main] [info] window#load: attempt to load window (id: 1)
+[2022-07-09 13:54:17.483] [main] [info] update#setState idle
+[2022-07-09 13:54:17.842] [main] [info] ExtensionHostStarterWorker created
+[2022-07-09 13:54:20.092] [main] [info] window#load: window reported ready (id: 1)
+[2022-07-09 13:54:20.579] [main] [info] Starting extension host with pid 426 (fork() took 57 ms).
+[2022-07-09 13:54:20.580] [main] [info] ExtensionHostStarterWorker.start() took 66 ms.
+[2022-07-09 13:54:47.496] [main] [info] update#setState checking for updates
+[2022-07-09 13:54:47.569] [main] [info] update#setState available for download
+[2022-07-13 09:29:06.383] [main] [info] Enabling inspect port on extension host with pid 426.
+[2022-07-13 09:29:07.074] [main] [info] Enabling inspect port on extension host with pid 426.

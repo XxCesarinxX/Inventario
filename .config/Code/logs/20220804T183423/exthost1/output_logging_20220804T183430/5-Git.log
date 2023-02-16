@@ -1,0 +1,15 @@
+[2022-08-04T23:34:37.254Z] La validación encontró GIT en: git
+[2022-08-04T23:34:37.431Z] Usando GIT 2.30.2 de git
+[2022-08-04T23:34:37.535Z] > git rev-parse --git-dir [6ms]
+[2022-08-04T23:34:37.563Z] Open repository: /home/intcesar/Mytest
+[2022-08-04T23:34:37.662Z] > git symbolic-ref --short HEAD [21ms]
+[2022-08-04T23:34:37.714Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [13ms]
+[2022-08-04T23:34:37.933Z] > git remote --verbose [145ms]
+[2022-08-04T23:34:37.939Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [184ms]
+[2022-08-04T23:34:38.343Z] > git config --get commit.template [365ms]
+[2022-08-04T23:34:38.804Z] > git ls-files --stage -- /home/intcesar/Mytest/inventa.csv [206ms]
+[2022-08-04T23:34:38.926Z] > git cat-file -s 192140426568576c39b1e7f023bd2ce49be26b4c [88ms]
+[2022-08-04T23:34:48.714Z] > git ls-files --stage -- /home/intcesar/Mytest/ventas.csv [14ms]
+[2022-08-04T23:34:48.742Z] > git cat-file -s 02eda43284342e3d1ea3ded4c1eebb4f1e555803 [4ms]
+[2022-08-04T23:34:50.914Z] > git ls-files --stage -- /home/intcesar/Mytest/inventa.csv [14ms]
+[2022-08-04T23:34:50.949Z] > git cat-file -s 192140426568576c39b1e7f023bd2ce49be26b4c [3ms]

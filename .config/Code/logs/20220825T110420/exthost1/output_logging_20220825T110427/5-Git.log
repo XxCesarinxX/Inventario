@@ -1,0 +1,11 @@
+[2022-08-25T16:04:31.411Z] La validación encontró GIT en: git
+[2022-08-25T16:04:31.657Z] Usando GIT  de git
+[2022-08-25T16:04:31.877Z] > git rev-parse --git-dir [86ms]
+[2022-08-25T16:04:31.893Z] Open repository: /home/intcesar/Mytest
+[2022-08-25T16:04:32.047Z] > git symbolic-ref --short HEAD [37ms]
+[2022-08-25T16:04:32.089Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [30ms]
+[2022-08-25T16:04:32.146Z] > git remote --verbose [8ms]
+[2022-08-25T16:04:32.148Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]
+[2022-08-25T16:04:32.341Z] > git config --get commit.template [165ms]
+[2022-08-25T16:04:32.718Z] > git ls-files --stage -- /home/intcesar/Mytest/inventario.py [61ms]
+[2022-08-25T16:04:32.748Z] > git cat-file -s 4ed54f060935f8464bcc4f990fa8df24f9bd6038 [7ms]

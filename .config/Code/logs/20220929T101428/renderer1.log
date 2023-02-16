@@ -1,0 +1,5 @@
+[2022-09-29 10:14:35.038] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-09-29 10:14:36.169] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-09-29 10:14:38.985] [renderer1] [error] [Extension Host] (node:417) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-10-05 12:40:41.810] [renderer1] [info] Webgl lost context, disposing of webgl renderer

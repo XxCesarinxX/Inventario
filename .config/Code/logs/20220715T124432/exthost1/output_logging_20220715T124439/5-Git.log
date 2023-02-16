@@ -1,0 +1,15 @@
+[2022-07-15T17:44:42.998Z] La validación encontró GIT en: git
+[2022-07-15T17:44:43.119Z] Usando GIT 2.30.2 de git
+[2022-07-15T17:44:43.334Z] > git rev-parse --git-dir [30ms]
+[2022-07-15T17:44:43.360Z] Open repository: /home/intcesar/Mytest
+[2022-07-15T17:44:43.814Z] > git symbolic-ref --short HEAD [57ms]
+[2022-07-15T17:44:43.838Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [7ms]
+[2022-07-15T17:44:44.121Z] > git remote --verbose [182ms]
+[2022-07-15T17:44:44.125Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [235ms]
+[2022-07-15T17:44:44.236Z] > git config --get commit.template [16ms]
+[2022-07-15T17:44:44.488Z] > git ls-files --stage -- /home/intcesar/Mytest/inventario.py [9ms]
+[2022-07-15T17:44:44.555Z] > git cat-file -s 4ed54f060935f8464bcc4f990fa8df24f9bd6038 [24ms]
+[2022-07-21T17:16:24.453Z] > git ls-files --stage -- /home/intcesar/Mytest/inventa.csv [21ms]
+[2022-07-21T17:16:24.506Z] > git cat-file -s 192140426568576c39b1e7f023bd2ce49be26b4c [6ms]
+[2022-07-21T17:16:46.312Z] > git ls-files --stage -- /home/intcesar/Mytest/inventario.py [6ms]
+[2022-07-21T17:16:46.364Z] > git cat-file -s 4ed54f060935f8464bcc4f990fa8df24f9bd6038 [4ms]

@@ -1,0 +1,17 @@
+ERROR:pygls.protocol:Failed to handle request 134 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/intcesar/Mytest/inventario.py') range=27:39-27:39 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 529, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 684, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (39) is not in a valid range (0-38) for line 28 ('save=save.set_index("Modelo") #indexa \n').
+[Error - 11:15:14 AM] Request textDocument/codeAction failed.
+  Message: ValueError: `column` parameter (39) is not in a valid range (0-38) for line 28 ('save=save.set_index("Modelo") #indexa \n').
+  Code: -32602 
+{'traceback': ['  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 529, in code_action\n    inline_refactoring = jedi_script.inline(*jedi_lines)\n', '  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 684, in inline\n    names = [d._name for d in self.get_references(line, column, include_builtins=True)]\n', '  File "/home/intcesar/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}

@@ -1,0 +1,11 @@
+[2023-02-16T17:27:55.469Z] La validación encontró GIT en: git
+[2023-02-16T17:27:55.554Z] Usando GIT 2.30.2 de git
+[2023-02-16T17:27:55.631Z] > git rev-parse --git-dir [2ms]
+[2023-02-16T17:27:55.649Z] Open repository: /home/intcesar
+[2023-02-16T17:28:03.669Z] > git symbolic-ref --short HEAD [33ms]
+[2023-02-16T17:28:03.721Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [5ms]
+[2023-02-16T17:28:03.801Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+[2023-02-16T17:28:03.803Z] > git remote --verbose [11ms]
+[2023-02-16T17:28:06.719Z] > git config --get commit.template [41ms]
+[2023-02-16T17:31:18.816Z] > git ls-files --stage -- /home/intcesar/Piel/LeerSheet.py [8ms]
+[2023-02-16T22:28:29.362Z] > git ls-files --stage -- /home/intcesar/Piel/key.json [150ms]

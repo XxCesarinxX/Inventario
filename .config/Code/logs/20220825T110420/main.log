@@ -1,0 +1,21 @@
+[2022-08-25 11:04:21.665] [main] [info] window#load: attempt to load window (id: 1)
+[2022-08-25 11:04:21.719] [main] [info] update#setState idle
+[2022-08-25 11:04:22.239] [main] [info] ExtensionHostStarterWorker created
+[2022-08-25 11:04:24.619] [main] [info] window#load: window reported ready (id: 1)
+[2022-08-25 11:04:25.105] [main] [info] Starting extension host with pid 420 (fork() took 100 ms).
+[2022-08-25 11:04:25.125] [main] [info] ExtensionHostStarterWorker.start() took 126 ms.
+[2022-08-25 11:04:51.733] [main] [info] update#setState checking for updates
+[2022-08-25 11:04:51.785] [main] [info] update#setState available for download
+[2022-08-25 11:04:57.258] [main] [info] update#setState idle
+[2022-08-25 12:36:30.030] [main] [info] update#setState checking for updates
+[2022-08-25 12:36:30.606] [main] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[2022-08-25 12:36:30.607] [main] [info] update#setState idle
+[2022-08-25 16:02:56.090] [main] [info] update#setState checking for updates
+[2022-08-25 16:02:57.167] [main] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[2022-08-25 16:02:57.169] [main] [info] update#setState idle
+[2022-08-25 17:02:56.080] [main] [info] update#setState checking for updates
+[2022-08-25 17:02:56.531] [main] [info] update#setState available for download

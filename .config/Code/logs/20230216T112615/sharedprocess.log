@@ -1,0 +1,14 @@
+[2023-02-16 11:26:26.688] [sharedprocess] [info] Starting worker process with pid 505 (type: fileWatcher, window: 1).
+[2023-02-16 11:26:31.729] [sharedprocess] [info] Getting Manifest... gokturksm.nebula-pandas
+[2023-02-16 11:26:32.609] [sharedprocess] [info] Installing extension: gokturksm.nebula-pandas
+[2023-02-16 11:26:34.195] [sharedprocess] [info] Downloaded extension: gokturksm.nebula-pandas /home/intcesar/.config/Code/CachedExtensionVSIXs/gokturksm.nebula-pandas-0.0.4
+[2023-02-16 11:26:34.404] [sharedprocess] [info] Extracted extension to /home/intcesar/.vscode/extensions/.db30a572-356e-4506-ba73-dc4232dbf590: gokturksm.nebula-pandas
+[2023-02-16 11:26:34.430] [sharedprocess] [info] Renamed to /home/intcesar/.vscode/extensions/gokturksm.nebula-pandas-0.0.4
+[2023-02-16 11:26:34.437] [sharedprocess] [info] Extracting completed. gokturksm.nebula-pandas
+[2023-02-16 11:26:34.459] [sharedprocess] [info] Extension installed successfully: gokturksm.nebula-pandas
+[2023-02-16 11:27:50.202] [sharedprocess] [info] Worker process with pid 505 terminated normally (type: fileWatcher, window: 1).
+[2023-02-16 11:27:52.437] [sharedprocess] [info] Starting worker process with pid 851 (type: fileWatcher, window: 1).
+[2023-02-16 13:25:52.129] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-16 13:50:52.179] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-16 14:50:17.856] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2023-02-16 16:03:08.429] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

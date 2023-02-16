@@ -1,0 +1,20 @@
+[2022-07-08 14:41:15.698] [sharedprocess] [info] Starting worker process with pid 504 (type: fileWatcher, window: 1).
+[2022-07-08 14:41:16.151] [sharedprocess] [info] Deleted from disk ms-vscode.js-debug-companion /home/intcesar/.vscode/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-07-08 14:41:16.305] [sharedprocess] [info] Deleted from disk mechatroner.rainbow-csv /home/intcesar/.vscode/extensions/mechatroner.rainbow-csv-2.2.0
+[2022-07-08 14:41:20.236] [sharedprocess] [info] Getting Manifest... mechatroner.rainbow-csv
+[2022-07-08 14:41:20.245] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-07-08 14:41:20.818] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-07-08 14:41:20.825] [sharedprocess] [info] Installing extension: mechatroner.rainbow-csv
+[2022-07-08 14:41:23.155] [sharedprocess] [info] Downloaded extension: mechatroner.rainbow-csv /home/intcesar/.config/Code/CachedExtensionVSIXs/mechatroner.rainbow-csv-2.4.0
+[2022-07-08 14:41:23.651] [sharedprocess] [info] Extracted extension to /home/intcesar/.vscode/extensions/.02c54e06-e1f3-45e7-b205-e2a692333395: mechatroner.rainbow-csv
+[2022-07-08 14:41:23.677] [sharedprocess] [info] Renamed to /home/intcesar/.vscode/extensions/mechatroner.rainbow-csv-2.4.0
+[2022-07-08 14:41:23.689] [sharedprocess] [info] Extracting completed. mechatroner.rainbow-csv
+[2022-07-08 14:41:23.717] [sharedprocess] [info] Extension installed successfully: mechatroner.rainbow-csv
+[2022-07-08 14:41:23.938] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/intcesar/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.8
+[2022-07-08 14:41:24.703] [sharedprocess] [info] Extracted extension to /home/intcesar/.vscode/extensions/.a316a10b-9b13-40c2-aaf7-59b16dcf9b61: ms-toolsai.jupyter-renderers
+[2022-07-08 14:41:24.726] [sharedprocess] [info] Renamed to /home/intcesar/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.8
+[2022-07-08 14:41:24.730] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2022-07-08 14:41:24.745] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2022-07-08 16:00:00.954] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-08 21:34:11.618] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-09 07:54:31.103] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

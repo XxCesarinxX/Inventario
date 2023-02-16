@@ -1,0 +1,18 @@
+[2022-08-04 18:34:30.377] [exthost] [info] Extension host with pid 418 started
+[2022-08-04 18:34:30.378] [exthost] [info] Skipping acquiring lock for /home/intcesar/.config/Code/User/workspaceStorage/789bbeec6e725d257406688d4d200746.
+[2022-08-04 18:34:31.010] [exthost] [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+[2022-08-04 18:34:31.046] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-04 18:34:31.400] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-04 18:34:31.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-04 18:34:34.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-04 18:34:34.260] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-04 18:34:34.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-04 18:34:36.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-04 18:34:36.629] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-04 18:34:37.385] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-08-04 18:34:37.464] [exthost] [info] Eager extensions activated
+[2022-08-04 18:34:37.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-04 18:34:37.897] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-04 18:34:38.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-05 10:02:48.432] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-08-05 10:02:48.603] [exthost] [info] Extension host with pid 418 exiting with code 0
