@@ -9,3 +9,5 @@
 [2023-02-16T17:28:06.719Z] > git config --get commit.template [41ms]
 [2023-02-16T17:31:18.816Z] > git ls-files --stage -- /home/intcesar/Piel/LeerSheet.py [8ms]
 [2023-02-16T22:28:29.362Z] > git ls-files --stage -- /home/intcesar/Piel/key.json [150ms]
+[2023-02-16T22:38:42.734Z] > git ls-files --stage -- /home/intcesar/Piel/key.json [233ms]
+[2023-02-16T22:38:43.480Z] > git cat-file -s c94effe82f798da01d623274718ab4536ffc289e [275ms]

@@ -182,3 +182,11 @@ exit
 /bin/python3 /home/intcesar/Piel/LeerSheet.py
 cls
 /bin/python3 /home/intcesar/Piel/LeerSheet.py
+gitclone
+gitclone https://github.com/XxCesarinxX/Inventario.git
+git clone https://github.com/XxCesarinxX/Inventario.git
+git 
+git init
+git add .
+git commit -m 'de nuevo el linux'
+exit
