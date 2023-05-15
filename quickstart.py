@@ -2,6 +2,7 @@ import pandas as pd
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
+from datetime import datetime
 
 #*/-------------------credenciales------------------------/'''
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -76,6 +77,14 @@ def subir(hoja,listados):
         valueInputOption='USER_ENTERED',
         body={'values': listados}
     ).execute()
+    
+def subirFila(hoja,fila):
+    sheet.values().append(
+        spreadsheetId=SPREADSHEET_ID,
+        range=hoja,  
+        valueInputOption='USER_ENTERED',
+        body={'values': fila}
+    ).execute()
 
 def consecuenciaVenta():
     """------------------------decrementacion-------------------------------"""
@@ -103,4 +112,20 @@ def listaprecios():
     print(df)
 
 def pedidos():
-    peticion=input("Separado por COMAS\n anote  ")
+    peticion  = input("Separado por COMAS\n | Modelo | Talla | Color | Peticion | Numero | Nombre | Acuenta | Costo |\n")
+    peticion  = list(peticion.split(","))
+    resultado = {
+        "Fecha"   :  datetime.today().strftime('%Y-%m-%d %H:%M'),
+        "Modelo"  : peticion[0],
+        "Talla"   : peticion[1],
+        "Color"   : peticion[2],
+        "Peticion": peticion[3],
+        "Numero"  : peticion[4],
+        "Nombre"  : peticion[5],
+        "Acuenta" : peticion[6],
+        "Resta"   : int(peticion[7]) - int(peticion[6]),
+        "Estado"  : "Emitido"
+    }
+    fila = [] + [list(resultado.values())]
+    subirFila("PedidosG",fila)
+    
