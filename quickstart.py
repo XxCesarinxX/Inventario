@@ -49,13 +49,13 @@ def search(inve):
 
 def decrementacion(dFrame, dicci):
     for i in range(len(dicci["Modelo"])):
-        aux = int(dFrame.loc[(dFrame['Modelo'] == dicci["Modelo"][i]) & (dFrame['Color'] == dicci["Color"][i]), dicci["Talla"][i]])
+        aux = dFrame.loc[(dFrame['Modelo'] == dicci["Modelo"][i]) & (dFrame['Color'] == dicci["Color"][i]), dicci["Talla"][i]].astype(int)
         aux-=1
         dFrame.loc[(dFrame['Modelo'] == dicci["Modelo"][i]) & (dFrame['Color'] == dicci["Color"][i]), dicci["Talla"][i]]=aux
 
 def incrementacion(dFrame, dicci):
     for i in range(len(dicci["Modelo"])):
-        aux = int(dFrame.loc[(dFrame['Modelo'] == dicci["Modelo"][i]) & (dFrame['Color'] == dicci["Color"][i]), dicci["Talla"][i]])
+        aux = dFrame.loc[(dFrame['Modelo'] == dicci["Modelo"][i]) & (dFrame['Color'] == dicci["Color"][i]), dicci["Talla"][i]].astype(int)
         aux+=1
         dFrame.loc[(dFrame['Modelo'] == dicci["Modelo"][i]) & (dFrame['Color'] == dicci["Color"][i]), dicci["Talla"][i]]=aux
 
@@ -92,11 +92,15 @@ def consecuenciaVenta():
     decrementacion(df,dicVentas)
     print(df)
     """-------------------------solicitar--------------------------------"""
-    dfVentas=pd.DataFrame(dicVentas, 
-                      columns=["Modelo","Color","S","M","L","Xl","2Xl","3Xl","4Xl","5Xl","Provedor"]).fillna(0)
-    incrementacion(dfVentas,dicVentas)
-    subir("SolicitaG", listado(dfVentas))
-
+    dicVentas.pop("Precio")
+    listas=[]
+    for i in range(len(listCantidad)):
+        aux=[]
+        for value in dicVentas.values():
+            aux.append(value[i])      
+        listas.append(aux)
+    subirFila("SolicitaG",listas)
+        
 def inventario(hoja):
     df = leer(hoja)
     incrementacion(df, dicVentas)
@@ -112,7 +116,7 @@ def listaprecios():
     print(df)
 
 def pedidos():
-    peticion  = input("Separado por COMAS\n | Modelo | Talla | Color | Peticion | Numero | Nombre | Acuenta | Costo |\n")
+    peticion  = input("\n--Separado por COMAS--\n| Modelo | Talla | Color | Peticion | Numero | Nombre | Acuenta | Costo |\n")
     peticion  = list(peticion.split(","))
     resultado = {
         "Fecha"   :  datetime.today().strftime('%Y-%m-%d %H:%M'),
@@ -124,8 +128,9 @@ def pedidos():
         "Nombre"  : peticion[5],
         "Acuenta" : peticion[6],
         "Resta"   : int(peticion[7]) - int(peticion[6]),
-        "Estado"  : "Emitido"
+        "Estado"  : "Pedido"
     }
     fila = [] + [list(resultado.values())]
     subirFila("PedidosG",fila)
-    
+
+consecuenciaVenta()
